@@ -24,7 +24,7 @@ def print_first_directors_movie_titles
   spielberg = []
     array2 = 0
     while array2 < directors_database[0][:movies].length do
-       spielberg << directors_database[0][:movies][0][:title]
+       spielberg << directors_database[0][:movies][array2][:title]
      array2 =+ 1
      end
   pp spielberg
