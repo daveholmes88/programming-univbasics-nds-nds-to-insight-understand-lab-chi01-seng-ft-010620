@@ -9,14 +9,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  require 'pp'
-  spielberg = []
     array2 = 0
     while array2 < directors_database[0][:movies].length do
-    spielberg << directors_database[0][:movies][array2][:title]
+    print directors_database[0][:movies][array2][:title] \n
      array2 += 1
      end
 #  pp spielberg
 #  spielberg << directors_database[0][:movies][0][:title]
-  pp spielberg
 end
